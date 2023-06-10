@@ -1,0 +1,31 @@
+.recently-played{
+    margin-top:20rem;
+}
+.recently-played__wrapper{
+    margin: 0 20rem;
+}
+.recently-played__top{
+    justify-content: space-between;
+}
+.recetly-played__title{
+    margin-bottom: 4rem;
+}
+.recently-played__buttons{
+ display: flex;
+ gap: 3rem;
+ cursor: pointer;
+ color: var(--black);
+}
+.recently-played__button{
+
+}
+.recently-played__button:hover{
+    stroke: var(--white);
+}
+.recently-played__musics{
+    gap: 3rem;
+    cursor: pointer;
+}
+.recently-played__musics:hover{
+}
+

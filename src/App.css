@@ -79,6 +79,7 @@ border-spacing: 0;
     --font-poppins:'Poppins';
     --font-lato-bold:'lato-bold';
     --bg-color:#161A1A;
+    --bg-hover:#707070;
 }
 html {
 font-size: 62.5%; 
@@ -100,8 +101,9 @@ position: relative;
 body {
 font-size: 2rem;
 line-height: 1.5;
-font-family: var(--fontFamily-forum);
+font-family: var(--font-lato);
 background-color: var(--bg-color);
+color: var(--white);
 }
 
 /*
