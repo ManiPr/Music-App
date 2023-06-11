@@ -138,9 +138,7 @@ justify-self: center;
 .sectoin-top{
     justify-content: space-between;
 }
-.section-title{
-    margin-bottom: 4rem;
-}
+
 .section-box{
     gap: 3rem;
 }

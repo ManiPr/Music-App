@@ -82,3 +82,31 @@ margin-top: 10rem;
 .category-podcast__musics{
 
 }
+
+
+
+
+/* 
+ __________PlayList_______________
+*/
+.playlist{
+    margin-top: 10rem;
+}
+.playlist__wrapper{
+
+}
+.playlist__top{
+
+}
+.playlist__title{
+
+}
+.playlist__buttons{
+    gap: 3rem;
+}
+.playlist__button{
+
+}
+.playlist__musics{
+
+}

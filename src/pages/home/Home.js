@@ -83,6 +83,27 @@ export default function Home() {
          
         </div>
       </section>
+      <section className='playlist'>
+        <div className='container'>
+          <div className='playlist__wrapper sectoin-wrapper'>
+          <div className='playlist__top sectoin-top center'>
+            <p className='playlist__title section-title'>Playlist picks</p>
+            <div className='playlist__buttons center'>
+            <img className='playlist__button' src={prev}/>
+            <img className='playlist__button' src={next}/>
+            </div>
+            </div>
+            <div className='playlist__musics section-box center'>
+            <Music></Music>
+            <Music></Music>
+            <Music></Music>
+            <Music></Music>
+            <Music></Music>
+            <Music></Music>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
