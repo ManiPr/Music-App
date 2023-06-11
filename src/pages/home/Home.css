@@ -1,5 +1,5 @@
 .recently-played{
-    margin-top:20rem;
+    margin-top:10rem;
 }
 .recently-played__wrapper{
     margin: 0 20rem;
@@ -34,4 +34,25 @@
 }
 .category-wrapper{
     gap: 3.3rem;
+}
+/* 
+ __________Days_______________
+*/
+.days{
+    margin-top: 10rem;
+}
+.days__wrapper{
+    margin: 0 20rem;
+}
+.days__top{
+    justify-content: space-between;
+}
+.days__title{
+    margin-bottom: 4rem;
+}
+.days__view{
+    cursor: pointer;
+}
+.days__musics{
+    gap: 3rem;
 }

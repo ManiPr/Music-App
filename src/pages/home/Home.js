@@ -37,7 +37,26 @@ export default function Home() {
           <Category></Category>
           <Category></Category>
           <Category></Category>
-           <Category></Category>
+          <Category></Category>
+          </div>
+          </div>
+      </section>
+      <section className='days'>
+      <div className='container'>
+          <div className='days__wrapper'>
+            <div className='days__top center'>
+            <p className='days__title'>For Sunday</p>
+            <p className='days__view'>View All</p>
+            </div>
+            <div className='days__musics center'>
+            <Music></Music>
+            <Music></Music>
+            <Music></Music>
+            <Music></Music>
+            <Music></Music>
+            <Music></Music>
+            </div>
+            
           </div>
           </div>
       </section>
