@@ -4,6 +4,7 @@ import prev from '../../assets/images/SVG File/prev.svg'
 import next from '../../assets/images/SVG File/next.svg'
 import Music from '../../components/music/Music'
 import Category from '../../components/category/Category'
+import PodcastCategory from '../../components/podcast-category/PodcastCategory'
 export default function Home() {
   return (
     <>
@@ -62,6 +63,25 @@ export default function Home() {
             
           </div>
           </div>
+      </section>
+      <section className='category-podcast'>
+        <div className='container'>
+          <div className='category-podcast__wrapper sectoin-wrapper'>
+          <div className='category-podcast__top sectoin-top center'>
+            <p className='category-podcast__title section-title'>PodCast</p>
+            <p className='category-podcast__view'>View All</p>
+            </div>
+            <div className='category-podcast__musics section-box center'>
+            <PodcastCategory></PodcastCategory>
+            <PodcastCategory></PodcastCategory>
+            <PodcastCategory></PodcastCategory>
+            <PodcastCategory></PodcastCategory>
+            <PodcastCategory></PodcastCategory>
+            <PodcastCategory></PodcastCategory>
+            </div>
+          </div>
+         
+        </div>
       </section>
     </>
   )

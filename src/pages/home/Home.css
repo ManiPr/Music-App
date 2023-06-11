@@ -27,10 +27,19 @@
 }
 .recently-played__musics:hover{
 }
-.categories{
-    
+
+
+/* 
+ __________category_______________
+*/
+.categories-section{
+    margin-top: 10rem;
+
 }
 .category-wrapper{
+}
+.categories{
+
 }
 /* 
  __________Days_______________
@@ -50,4 +59,26 @@
     cursor: pointer;
 }
 .days__musics{
+}
+
+/* 
+ __________Podcast Category_______________
+*/
+.category-podcast{
+margin-top: 10rem;
+}
+.category-podcast__wrapper{
+
+}
+.category-podcast__top{
+
+}
+.category-podcast__title{
+
+}
+.category-podcast__view{
+
+}
+.category-podcast__musics{
+
 }
