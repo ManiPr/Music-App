@@ -1,7 +1,8 @@
 .playerwrapper{
     background-color: var(--black-gray);
     border-radius: 1rem;
-    position: sticky;
+    position: fixed;
+    width: 100%;
 }
 .music-player{
     justify-content: space-between;
