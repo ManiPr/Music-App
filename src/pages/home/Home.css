@@ -2,13 +2,13 @@
     margin-top:10rem;
 }
 .recently-played__wrapper{
-    margin: 0 20rem;
+   
 }
 .recently-played__top{
-    justify-content: space-between;
+    
 }
 .recetly-played__title{
-    margin-bottom: 4rem;
+   
 }
 .recently-played__buttons{
  display: flex;
@@ -23,17 +23,14 @@
     stroke: var(--white);
 }
 .recently-played__musics{
-    gap: 3rem;
-    cursor: pointer;
+   
 }
 .recently-played__musics:hover{
 }
 .categories{
-    margin: 0 19rem;
-    margin-top: 8rem;
+    
 }
 .category-wrapper{
-    gap: 3.3rem;
 }
 /* 
  __________Days_______________
@@ -42,17 +39,15 @@
     margin-top: 10rem;
 }
 .days__wrapper{
-    margin: 0 20rem;
+    
 }
 .days__top{
-    justify-content: space-between;
+    
 }
 .days__title{
-    margin-bottom: 4rem;
 }
 .days__view{
     cursor: pointer;
 }
 .days__musics{
-    gap: 3rem;
 }

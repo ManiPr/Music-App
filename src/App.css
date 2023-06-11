@@ -132,7 +132,18 @@ display: flex;
 align-items: center;
 justify-self: center;
 }
-
+.sectoin-wrapper{
+    margin: 0 20rem;
+}
+.sectoin-top{
+    justify-content: space-between;
+}
+.section-title{
+    margin-bottom: 4rem;
+}
+.section-box{
+    gap: 3rem;
+}
 /* 
 
 - Grid System

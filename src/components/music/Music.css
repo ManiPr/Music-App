@@ -9,6 +9,7 @@
     height: 86%;
     opacity: 50%;
     border-radius: 1rem;
+    cursor: pointer;
 }
 .music__content{
     gap: 2rem;
