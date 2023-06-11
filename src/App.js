@@ -4,6 +4,8 @@ import Nav from './components/nav/Nav'
 import routes from './routes'
 import { useRoutes } from 'react-router-dom'
 import Music from './components/music/Music'
+import PlayMusic from './components/music-player/MusicPlayer'
+
 export default function App() {
   let router=useRoutes(routes)
   return (
@@ -14,7 +16,7 @@ export default function App() {
           {router}
         </div>
         </main>
-     
+        <PlayMusic></PlayMusic>
     </>
   );
 }

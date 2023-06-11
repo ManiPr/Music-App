@@ -80,6 +80,8 @@ border-spacing: 0;
     --font-lato-bold:'lato-bold';
     --bg-color:#161A1A;
     --bg-hover:#707070;
+    --black-gray:#3A3A3D;
+    --text-hover:#99999F;
 }
 html {
 font-size: 62.5%; 
