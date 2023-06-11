@@ -28,4 +28,10 @@
 }
 .recently-played__musics:hover{
 }
-
+.categories{
+    margin: 0 19rem;
+    margin-top: 8rem;
+}
+.category-wrapper{
+    gap: 3.3rem;
+}

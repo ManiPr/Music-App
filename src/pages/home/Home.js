@@ -3,6 +3,7 @@ import './Home.css'
 import prev from '../../assets/images/SVG File/prev.svg'
 import next from '../../assets/images/SVG File/next.svg'
 import Music from '../../components/music/Music'
+import Category from '../../components/category/Category'
 export default function Home() {
   return (
     <>
@@ -27,9 +28,19 @@ export default function Home() {
             
           </div>
           </div>
-        
+        </section>
+      <section className='categories'>
+        <div className='container'>
+          <div className='category-wrapper center'>
+          <Category></Category>
+          <Category></Category>
+          <Category></Category>
+          <Category></Category>
+          <Category></Category>
+           <Category></Category>
+          </div>
+          </div>
       </section>
-      <section className='music-player'></section>
     </>
   )
 }
