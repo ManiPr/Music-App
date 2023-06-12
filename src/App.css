@@ -137,11 +137,20 @@ justify-self: center;
 }
 .sectoin-top{
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 .section-box{
     gap: 3rem;
 }
+.section-buttons{
+    gap: 3rem;
+}
+.sectoin-margin-top{
+    margin-top: 10rem;
+
+}
+
 /* 
 
 - Grid System

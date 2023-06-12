@@ -1,5 +1,4 @@
 .recently-played{
-    margin-top:10rem;
 }
 .recently-played__wrapper{
    
@@ -12,7 +11,7 @@
 }
 .recently-played__buttons{
  display: flex;
- gap: 3rem;
+ 
  cursor: pointer;
  color: var(--black);
 }
@@ -33,7 +32,6 @@
  __________category_______________
 */
 .categories-section{
-    margin-top: 10rem;
 
 }
 .category-wrapper{
@@ -45,7 +43,6 @@
  __________Days_______________
 */
 .days{
-    margin-top: 10rem;
 }
 .days__wrapper{
     
@@ -65,7 +62,6 @@
  __________Podcast Category_______________
 */
 .category-podcast{
-margin-top: 10rem;
 }
 .category-podcast__wrapper{
 
@@ -90,7 +86,6 @@ margin-top: 10rem;
  __________PlayList_______________
 */
 .playlist{
-    margin-top: 10rem;
 }
 .playlist__wrapper{
 
@@ -102,11 +97,68 @@ margin-top: 10rem;
 
 }
 .playlist__buttons{
-    gap: 3rem;
 }
 .playlist__button{
 
 }
 .playlist__musics{
+
+}
+
+
+
+
+
+/* 
+ __________New Releases_______________
+*/
+
+.new-releases{
+}
+.new-releases__wrapper{
+}
+.new-releases__top{
+    
+}
+.new-releases__title{
+
+}
+.new-releases__view{
+
+}
+.new-releases__musics{
+
+}
+
+
+
+
+
+
+
+/* 
+ __________Artist_______________
+*/
+.artist{
+
+}
+.artist__wrapper{
+
+}
+.artist__top{
+
+}
+.artist__title{
+
+}
+.artist__buttons{
+}
+.artist__button{
+
+}
+.artist__button{
+
+}
+.artist__musics{
 
 }
